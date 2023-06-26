@@ -1,16 +1,11 @@
+# Basic set up for three package managers
+
 version: 2
 updates:
+  # Maintain dependencies for All
   - package-ecosystem: "all"
     directory: "/"
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 10
-    target-branch: "main"
-    default-branch: "main"
-  - package-ecosystem: "all"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    open-pull-requests-limit: 10
     target-branch: "test-branch-1"
     default-branch: "test-branch-1"
