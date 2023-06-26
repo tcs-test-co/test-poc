@@ -4,8 +4,10 @@ version: 2
 updates:
   # Maintain dependencies for All
   - package-ecosystem: "all"
-    directory: "/"
+    directory: "/demo-java"
     schedule:
       interval: "daily"
+      time: "11:39"
+      timezone: "US/Hawaii"
     target-branch: "test-branch-1"
     default-branch: "test-branch-1"
